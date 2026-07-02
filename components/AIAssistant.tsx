@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaRobot, FaPaperPlane, FaTimes } from "react-icons/fa";
 
 export default function AIAssistant() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("");
 
   const [reply, setReply] = useState(`
